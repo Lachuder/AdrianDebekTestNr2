@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e7f5addf-dc94-465d-96bb-89c61ea6be27" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../AdrianDebekTestNr2/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AdrianDebekTestNr2/src/main/java/pl/kurs/zadanie01/app/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AdrianDebekTestNr2/src/main/java/pl/kurs/zadanie01/models/Baby.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AdrianDebekTestNr2/src/main/java/pl/kurs/zadanie01/models/Mother.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AdrianDebekTestNr2/src/main/java/pl/kurs/zadanie01/models/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AdrianDebekTestNr2/src/main/java/pl/kurs/zadanie01/services/BabiesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AdrianDebekTestNr2/src/main/java/pl/kurs/zadanie01/services/MaternityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AdrianDebekTestNr2/src/main/java/pl/kurs/zadanie01/services/MotherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AdrianDebekTestNr2/src/main/java/pl/kurs/zadanie01/services/Uility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AdrianDebekTestNr2/src/main/java/pl/kurs/zadanie02/Runner02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AdrianDebekTestNr2/src/main/java/pl/kurs/zadanie03/app/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AdrianDebekTestNr2/src/main/java/pl/kurs/zadanie03/models/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AdrianDebekTestNr2/src/main/java/pl/kurs/zadanie03/models/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AdrianDebekTestNr2/src/main/java/pl/kurs/zadanie03/models/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AdrianDebekTestNr2/src/main/java/pl/kurs/zadanie03/services/SchoolService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AdrianDebekTestNr2/src/main/java/pl/kurs/zadanie03/services/Utility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Arrays/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Exceptions/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../HelloWorld/HelloWorld.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../HelloWorld/out/production/HelloWorld/HelloWorld.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Inheritance/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../KnowledgeCompendium/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Loops/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ObjectClass/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PATRYK/ADRIAN_DEBEK_TEST_NR1/ADRIAN_DEBEK_TEST_NR1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PATRYK/Iteracja 2/Iteracja 2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PATRYK/IteracjaPierwsza/IteracjaPierwsza.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Polimorphism/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/java/pl/kurs/zadanie01/app/Runner01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/java/pl/kurs/zadanie03/models/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/java/pl/kurs/zadanie03/models/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/java/pl/kurs/zadanie03/models/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/java/pl/kurs/zadanie03/services/SchoolService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AdrianDebekTestNr2/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AdrianDebekTestNr2/.idea/encodings.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="2jBzqyEnBI4Q4Y2ruEDjRvFyR9k" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/DELL/Desktop/JAVA/Repositories/AdrianDebekTestNr2/src"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e7f5addf-dc94-465d-96bb-89c61ea6be27" name="Changes" comment="" />
+      <created>1720875453396</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720875453396</updated>
+    </task>
+    <servers />
+  </component>
+</project>
