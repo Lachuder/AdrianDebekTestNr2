@@ -9,8 +9,8 @@ public class Doctor extends Person {
     private Specialization specialization;
     private String taxIdentificationNumber;
 
-    public Doctor(int id, String firstName, String lastName, String peselIdentificationNumber, LocalDate birthDate, Specialization specialization, String taxIdentificationNumber) {
-        super(id, firstName, lastName, peselIdentificationNumber, birthDate);
+    public Doctor(int id, String lastName, String firstName, String peselIdentificationNumber, LocalDate birthDate, Specialization specialization, String taxIdentificationNumber) {
+        super(id, lastName, firstName, peselIdentificationNumber, birthDate);
         this.specialization = specialization;
         this.taxIdentificationNumber = taxIdentificationNumber;
     }
@@ -29,5 +29,13 @@ public class Doctor extends Person {
 
     public void setTaxIdentificationNumber(String taxIdentificationNumber) {
         this.taxIdentificationNumber = taxIdentificationNumber;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() +
+                " specialization=" + specialization +
+                ", taxIdentificationNumber='" + taxIdentificationNumber + '\'' +
+                '}';
     }
 }

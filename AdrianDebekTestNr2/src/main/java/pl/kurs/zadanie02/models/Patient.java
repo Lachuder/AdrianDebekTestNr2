@@ -5,8 +5,12 @@ import java.time.LocalDate;
 public class Patient extends Person {
 
 
-    public Patient(int id, String firstName, String lastName, String peselIdentificationNumber, LocalDate birthDate) {
-        super(id, firstName, lastName, peselIdentificationNumber, birthDate);
+    public Patient(int id, String lastName, String firstName, String peselIdentificationNumber, LocalDate birthDate) {
+        super(id, lastName, firstName, peselIdentificationNumber, birthDate);
     }
 
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }

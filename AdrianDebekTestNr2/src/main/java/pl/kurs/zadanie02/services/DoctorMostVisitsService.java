@@ -1,25 +1,27 @@
 package pl.kurs.zadanie02.services;
 
+import pl.kurs.zadanie02.models.Doctor;
 import pl.kurs.zadanie02.models.Visit;
 
-public class MostFrequentVisitYearService {
+public class DoctorMostVisitsService {
 
-    public static int yearWithMostVisits(Visit[] visInput) {
+    public static Doctor doctorWithMostVisits(Doctor[] docInput, Visit[] visInput) {
+        Doctor result = null;
         int max = 0;
-        int result = 0;
-        for (int i = 0; i < visInput.length; i++) {
+        for (int i = 0; i < docInput.length; i++) {
             int counter = 0;
             for (int j = 0; j < visInput.length; j++) {
-                if (visInput[i].getVisitDate().getYear() == visInput[j].getVisitDate().getYear()) {
+                if (docInput[i].getId() == visInput[j].getDoctorId()) {
                     counter++;
                     if (counter > max) {
                         max = counter;
-                        result = visInput[i].getVisitDate().getYear();
+                        result = docInput[i];
                     }
                 }
             }
         }
         return result;
     }
+
 
 }

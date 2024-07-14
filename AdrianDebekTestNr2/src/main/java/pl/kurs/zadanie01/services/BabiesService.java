@@ -22,7 +22,7 @@ public class BabiesService {
             String line = null;
             while ((line = br.readLine()) != null) {
                 resultArray = Arrays.copyOf(resultArray, resultArray.length + 1);
-                resultArray[resultArray.length - 1] = mapStringToBaby(line, mothersArray);
+                resultArray[resultArray.length - 1] = createBabyObjectFromDataInString(line, mothersArray);
             }
 
         } catch (IOException e) {
@@ -32,7 +32,7 @@ public class BabiesService {
         return resultArray;
     }
 
-    private static Baby mapStringToBaby(String line, Mother[] mothersArray) {
+    private static Baby createBabyObjectFromDataInString(String line, Mother[] mothersArray) {
         String[] temp = line.replaceAll("\\s+", " ").split(" ");
         int index = Utility.convertStringToInt(temp[0]);
         String gender = temp[1];

@@ -20,7 +20,7 @@ public class MothersService {
             String line = null;
             while ((line = br.readLine()) != null) {
                 resultArray = Arrays.copyOf(resultArray, resultArray.length + 1);
-                resultArray[resultArray.length - 1] = mapStringToMother(line);
+                resultArray[resultArray.length - 1] = createMotherObjectFromDataInString(line);
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -29,7 +29,7 @@ public class MothersService {
         return resultArray;
     }
 
-    private static Mother mapStringToMother(String line) {
+    private static Mother createMotherObjectFromDataInString(String line) {
         String[] temp = line.replaceAll("\\s+", " ").split(" ");
         int index = Utility.convertStringToInt(temp[0]);
         String firstName = temp[1];
