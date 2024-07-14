@@ -34,7 +34,7 @@ public class DoctorDataStorage {
     }
 
     private static Doctor createDoctorObjectFromDataInString(String input) {
-        String[] temp = input.replaceAll("\\s+", " ").split(" ");
+        String[] temp = Utility.convertStringElementsToArray(input);
         int id = Utility.convertStringToInt(temp[0]);
         String lastName = temp[1];
         String firstName = temp[2];

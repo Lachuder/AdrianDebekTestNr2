@@ -6,6 +6,7 @@ import pl.kurs.zadanie02.models.Visit;
 import pl.kurs.zadanie02.services.*;
 
 import java.io.File;
+import java.time.LocalDate;
 import java.util.Arrays;
 
 public class Runner02 {
@@ -22,9 +23,6 @@ public class Runner02 {
         System.out.println("PopularSpecializationService.findMostPopular(doctors) = " + Arrays.toString(PopularSpecializationService.findMostPopularSpecialization(doctors)));
         System.out.println("MostFrequentVisitYearService.yearWithMostVisits(visits) = " + MostFrequentVisitYearService.yearWithMostVisits(visits));
         System.out.println("OldestDoctorsService.findOldestDoctor(doctors) = " + OldestDoctorsService.findOldestDoctor(doctors));
-
-        System.out.println("Long.parseLong(\"00032906074\") = " + Long.parseLong("00032906074"));
-
 
     }
 

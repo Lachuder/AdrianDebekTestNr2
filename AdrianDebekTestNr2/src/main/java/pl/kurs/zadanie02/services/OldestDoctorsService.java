@@ -4,19 +4,19 @@ import pl.kurs.zadanie02.models.Doctor;
 
 public class OldestDoctorsService {
 
-//    public static Doctor findOldestDoctor(Doctor[] docArray) {
-//        Doctor result = null;
-//        long min = 99_999_999_999L;
+//    public static Doctor[] findTopFiveOldestDoctor(Doctor[] docArray) {
+//        Doctor[] result = new Doctor[5];
+//        result[0] = findOldestDoctor(docArray);
+//        int counter = 0;
 //        for (int i = 0; i < docArray.length; i++) {
-//            for (int j = 0; j < docArray.length; j++) {
-//                if (Long.parseLong(docArray[j].getPeselIdentificationNumber()) < min) {
-//                    min = Long.parseLong(docArray[i].getPeselIdentificationNumber());
-//                    result = docArray[i];
+//            for (int j = i; j < docArray.length; j++) {
+//
 //                }
 //            }
-//        }
 //        return result;
 //    }
+
+//    TODO zdaję sobie sprawę, że to nie jest najlepszy sposób, ze względu na możliwość rozpoczynania się numeru PESEL od zer
 
     public static Doctor findOldestDoctor(Doctor[] docArray) {
         Doctor result = null;
