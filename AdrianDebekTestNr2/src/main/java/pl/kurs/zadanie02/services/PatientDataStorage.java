@@ -24,7 +24,7 @@ public class PatientDataStorage {
                     continue;
                 } else {
                     resultArray = Arrays.copyOf(resultArray, resultArray.length + 1);
-                    resultArray[resultArray.length - 1] = createPatientObjectFromDataInString(line);;
+                    resultArray[resultArray.length - 1] = createPatientObjectFromDataInString(line);
                 }
             }
         } catch (IOException e) {

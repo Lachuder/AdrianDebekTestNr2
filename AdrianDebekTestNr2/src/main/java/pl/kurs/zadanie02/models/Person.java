@@ -26,37 +26,11 @@ public abstract class Person {
         this.id = id;
     }
 
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
 
     public String getPeselIdentificationNumber() {
         return peselIdentificationNumber;
     }
 
-    public void setPeselIdentificationNumber(String peselIdentificationNumber) {
-        this.peselIdentificationNumber = peselIdentificationNumber;
-    }
-
-    public LocalDate getBirthDate() {
-        return birthDate;
-    }
-
-    public void setBirthDate(LocalDate birthDate) {
-        this.birthDate = birthDate;
-    }
 
     @Override
     public String toString() {
