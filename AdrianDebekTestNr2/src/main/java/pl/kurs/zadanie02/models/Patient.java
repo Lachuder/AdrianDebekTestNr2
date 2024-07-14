@@ -4,7 +4,6 @@ import java.time.LocalDate;
 
 public class Patient extends Person {
 
-
     public Patient(int id, String lastName, String firstName, String peselIdentificationNumber, LocalDate birthDate) {
         super(id, lastName, firstName, peselIdentificationNumber, birthDate);
     }

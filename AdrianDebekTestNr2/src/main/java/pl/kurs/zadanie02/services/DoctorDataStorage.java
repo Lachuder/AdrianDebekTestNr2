@@ -32,7 +32,7 @@ public class DoctorDataStorage {
         }
         return resultArray;
     }
-//23 Kadaj Monika pediatra 1965-03-16 879-122-69-94 65031687654
+
     private static Doctor createDoctorObjectFromDataInString(String input) {
         String[] temp = input.replaceAll("\\s+", " ").split(" ");
         int id = Utility.convertStringToInt(temp[0]);
@@ -42,7 +42,7 @@ public class DoctorDataStorage {
         LocalDate birthDate = LocalDate.parse(temp[4]);
         String taxIdentificationNumber = temp[5];
         String peselIdentificationNumber = temp[6];
-        return new Doctor(id,lastName,firstName,peselIdentificationNumber,birthDate, spec,taxIdentificationNumber);
+        return new Doctor(id, lastName, firstName, peselIdentificationNumber, birthDate, spec, taxIdentificationNumber);
     }
 
 }

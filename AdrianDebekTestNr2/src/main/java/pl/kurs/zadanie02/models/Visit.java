@@ -3,9 +3,9 @@ package pl.kurs.zadanie02.models;
 import java.time.LocalDate;
 
 public class Visit {
-    private int doctorId;
-    private int patientId;
-    private LocalDate visitDate;
+    private final int doctorId;
+    private final int patientId;
+    private final LocalDate visitDate;
 
     public Visit(int doctorId, int patientId, LocalDate visitDate) {
         this.doctorId = doctorId;

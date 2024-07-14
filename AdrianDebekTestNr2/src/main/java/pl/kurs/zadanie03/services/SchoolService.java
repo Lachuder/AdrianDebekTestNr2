@@ -1,9 +1,11 @@
 package pl.kurs.zadanie03.services;
 
+import pl.kurs.zadanie03.data.Plec;
 import pl.kurs.zadanie03.models.Employee;
 import pl.kurs.zadanie03.models.Student;
 import pl.kurs.zadanie03.models.Person;
 
+import javax.print.DocFlavor;
 import java.util.Arrays;
 
 public class SchoolService {
@@ -33,16 +35,17 @@ public class SchoolService {
     public static int countFemalesInSchool() {
         int result = 0;
         for (Person pers : arrayOfPerson) {
-            if (getPlec(pers)) {
+            if (getPlec(pers).equals(Plec.KOBIETA)) {
                 result++;
             }
         }
         return result;
     }
 
-    private static boolean getPlec(Person person) {
+    private static Plec getPlec(Person person) {
         String[] tempString = Utility.getStringArrayWithDigitsFromPeselNumber(person.getPeselIdentificationNumber());
-        return Integer.parseInt(tempString[9]) % 2 == 0 || Integer.parseInt(tempString[9]) == 0;
+        int genderDigit = Integer.parseInt(tempString[9]);
+        return (genderDigit % 2 == 0) ? Plec.KOBIETA : Plec.MEZCZYZNA;
     }
 
     public static Person[] getArrayOfPerson() {

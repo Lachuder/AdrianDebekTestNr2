@@ -5,7 +5,7 @@ import java.util.Objects;
 
 public class Mother extends Person {
 
-    private int age;
+    private final int age;
     private Baby[] babies = new Baby[0];
 
     public Mother(int id, String name, int age) {

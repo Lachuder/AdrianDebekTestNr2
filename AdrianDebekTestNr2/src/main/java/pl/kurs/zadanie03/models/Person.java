@@ -13,40 +13,9 @@ public abstract class Person {
         this.peselIdentificationNumber = peselIdentificationNumber;
         this.city = city;
     }
-//    public boolean getPlec() {
-//
-//    }
-
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
 
     public String getPeselIdentificationNumber() {
         return peselIdentificationNumber;
-    }
-
-    public void setPeselIdentificationNumber(String peselIdentificationNumber) {
-        this.peselIdentificationNumber = peselIdentificationNumber;
-    }
-
-    public String getCity() {
-        return city;
-    }
-
-    public void setCity(String city) {
-        this.city = city;
     }
 
     @Override

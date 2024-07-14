@@ -5,10 +5,10 @@ import java.time.LocalDate;
 public abstract class Person {
 
     private int id;
-    private String lastName;
-    private String firstName;
-    private String peselIdentificationNumber;
-    private LocalDate birthDate;
+    private final String lastName;
+    private final String firstName;
+    private final String peselIdentificationNumber;
+    private final LocalDate birthDate;
 
     public Person(int id, String lastName, String firstName, String peselIdentificationNumber, LocalDate birthDate) {
         this.id = id;

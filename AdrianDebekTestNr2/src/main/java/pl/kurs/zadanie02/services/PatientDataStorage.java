@@ -33,7 +33,7 @@ public class PatientDataStorage {
 
         return resultArray;
     }
-    //122 Nowakowska Joanna 73050512356 1973-05-05
+
     private static Patient createPatientObjectFromDataInString(String input) {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-M-d");
         String[] temp = input.replaceAll("\\s+", " ").split(" ");
@@ -42,7 +42,7 @@ public class PatientDataStorage {
         String firstName = temp[2];
         String peselIdentificationNumber = temp[3];
         LocalDate birthDate = LocalDate.parse(temp[4], formatter);
-        return new Patient(id,lastName,firstName,peselIdentificationNumber,birthDate);
+        return new Patient(id, lastName, firstName, peselIdentificationNumber, birthDate);
     }
 
 }

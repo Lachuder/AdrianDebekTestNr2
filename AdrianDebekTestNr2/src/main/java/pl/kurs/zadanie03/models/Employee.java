@@ -1,36 +1,26 @@
 package pl.kurs.zadanie03.models;
 
+import pl.kurs.zadanie03.data.PositionTitle;
+
 public class Employee extends Person {
 
-    private String position;
+    private PositionTitle positionTitle;
     private double salary;
 
-    public Employee(String firstName, String lastName, String peselIdentificationNumber, String city, String position, double salary) {
+    public Employee(String firstName, String lastName, String peselIdentificationNumber, String city, PositionTitle positionTitle, double salary) {
         super(firstName, lastName, peselIdentificationNumber, city);
-        this.position = position;
+        this.positionTitle = positionTitle;
         this.salary = salary;
-    }
-
-    public String getPosition() {
-        return position;
-    }
-
-    public void setPosition(String position) {
-        this.position = position;
     }
 
     public double getSalary() {
         return salary;
     }
 
-    public void setSalary(double salary) {
-        this.salary = salary;
-    }
-
     @Override
     public String toString() {
         return super.toString() +
-                " position='" + position + '\'' +
+                " position='" + positionTitle + '\'' +
                 ", salary=" + salary +
                 '}';
     }

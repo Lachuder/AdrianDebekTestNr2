@@ -33,13 +33,14 @@ public class VisitsDataStorage {
 
         return resultArray;
     }
+
     private static Visit createVisitObjectFromDataInString(String input) {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-M-d");
         String[] temp = input.replaceAll("\\s+", " ").split(" ");
         int doctorId = Utility.convertStringToInt(temp[0]);
         int patientId = Utility.convertStringToInt(temp[1]);
         LocalDate visitDate = LocalDate.parse(temp[2], formatter);
-        return new Visit(doctorId,patientId,visitDate);
+        return new Visit(doctorId, patientId, visitDate);
     }
 
 }

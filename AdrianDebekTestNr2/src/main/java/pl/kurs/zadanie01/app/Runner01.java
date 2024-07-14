@@ -13,11 +13,6 @@ public class Runner01 {
 
     public static void main(String[] args) {
 
-        //1 mieć metodę, która zwróci Ci listę/tablicę obiektów Mother na podstawie Pliku z matkami
-        //2 mieć metodę, która zwroci Ci listę/tablicę obiektów Baby na podstawie pliku z dzieciakami
-        //3 odpalić metodę, która uzupełni matki bahorkami
-
-
         Mother[] mothers = MothersService.readMothersFromFile(new File("mamy.txt"));
         Baby[] babies = BabiesService.readBabiesFromFile(new File("noworodki.txt"), mothers);
         MothersService.assignBabiesToMothers(babies);
@@ -26,8 +21,6 @@ public class Runner01 {
         System.out.println("MaternityService.getNamesOfMothersBeforeAge25WithBabiesOver4000G(mothers) = " + Arrays.toString(MaternityService.getNamesOfMothersBeforeAge25WithBabiesOver4000G(mothers)));
         System.out.println("MaternityService.findDaughtersWithNameAfterMotherAndGetBirthDate(babies) = " + Arrays.toString(MaternityService.findDaughtersWithNameAfterMotherAndGetBirthDate(babies)));
         System.out.println("MaternityService.findMothersOfTwins(mothers) = " + Arrays.toString(MaternityService.findMothersOfTwins(mothers)));
-
-        System.out.println("--------------------------");
 
 
     }
