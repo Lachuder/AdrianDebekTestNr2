@@ -30,11 +30,6 @@ public abstract class Person {
         return birthDate;
     }
 
-    public String getPeselIdentificationNumber() {
-        return peselIdentificationNumber;
-    }
-
-
     @Override
     public String toString() {
         return getClass().getSimpleName() +
