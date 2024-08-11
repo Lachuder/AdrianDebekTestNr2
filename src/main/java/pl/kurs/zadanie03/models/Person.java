@@ -2,10 +2,10 @@ package pl.kurs.zadanie03.models;
 
 public abstract class Person {
 
-    private final String firstName;
-    private final String lastName;
-    private final String peselIdentificationNumber;
-    private final String city;
+    private String firstName;
+    private String lastName;
+    private String peselIdentificationNumber;
+    private String city;
 
     public Person(String firstName, String lastName, String peselIdentificationNumber, String city) {
         this.firstName = firstName;

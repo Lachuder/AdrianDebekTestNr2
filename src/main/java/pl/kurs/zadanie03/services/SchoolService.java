@@ -1,6 +1,8 @@
 package pl.kurs.zadanie03.services;
 
 import pl.kurs.zadanie03.data.Plec;
+import pl.kurs.zadanie03.models.Employee;
+import pl.kurs.zadanie03.models.Student;
 import pl.kurs.zadanie03.models.Person;
 
 import java.util.Arrays;
