@@ -25,9 +25,9 @@ Wykorzystując informacje zawarte w plikach wykonaj następujące polecenia:
 - znajdź pacjenta który miał najwięcej wizyt
 - która specalizacja cieszy się największym powodzeniem?
 - którego roku było najwięcej wizyt?
-- wypisz top 5 najstarszych lekarzy - sortowanie listy!!!!
+- wypisz top 5 najstarszych lekarzy
 - wypisz top 5 lekarzy co mieli najwiecej wizyt
-- zwroc pacientow ktorzy byli u minumum 5ciu roznych lekarzy - set/kolekcje!!!!
+- zwroc pacientow ktorzy byli u minumum 5ciu roznych lekarzy
 - zwroc lekarzy ktorzy przyjeli tylko jednego pacjenta
 
 UWAGA: w plikach mogą być dane złośliwe, należy je pominać, dane złośliwe to np: lekarz ze zduplikowanym numerem NIP
