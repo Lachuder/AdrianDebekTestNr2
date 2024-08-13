@@ -1,29 +1,30 @@
 package pl.kurs.zadanie04;
 
 public abstract class Figura {
+    private static int counter = 0; // pola statyczne na samej gorze + static dotyczy klasy, a nie obiektu
+    private int numerFigury;
 
-    private static int numerFigury;
-    private static int counter = 1;
-    public static int getNumerFigury() {
+    public int getNumerFigury() {
         return numerFigury;
+    }
+    private void setNumerFigury(int numerFigury) {
+        this.numerFigury = numerFigury;
     }
 
     public static Kwadrat stworzKwadrat(int dlugoscBoku) {
-        count(counter);
-        return new Kwadrat(dlugoscBoku);
+        Kwadrat kwadrat = new Kwadrat(dlugoscBoku);
+        ((Figura) kwadrat).setNumerFigury(++counter);
+        return kwadrat;
     }
     public static Kolo stworzKolo(int srednica) {
-        count(counter);
+
         return new Kolo(srednica);
     }
     public static Prostokat stworzProstokat(int dlugoscBokuA, int dlugoscBokuB) {
-        count(counter);
+
         return new Prostokat(dlugoscBokuA,dlugoscBokuB);
     }
-    private static int count(int input){
 
-        return numerFigury += input;
-    }
     @Override
     public String toString() {
         return "Figura nr " + numerFigury + ": ";

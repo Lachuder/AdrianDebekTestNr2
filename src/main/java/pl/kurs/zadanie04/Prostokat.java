@@ -12,6 +12,6 @@ public class Prostokat extends Figura {
 
     @Override
     public String toString() {
-        return "Figura nr " + Figura.getNumerFigury() + ": Prostokat o bokach " + bokA + "x" + bokB + ".";
+        return "Figura nr " + getNumerFigury() + ": Prostokat o bokach " + bokA + "x" + bokB + ".";
     }
 }

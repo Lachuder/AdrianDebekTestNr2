@@ -9,7 +9,7 @@ public class Kolo extends Figura {
     }
     @Override
     public String toString() {
-        return "Figura nr " + Figura.getNumerFigury() + ": Kolo o promieniu " + promien + ".";
+        return super.toString() + "Kolo o promieniu " + promien + ".";
     }
 //    @Override
 //    public String toString() {
